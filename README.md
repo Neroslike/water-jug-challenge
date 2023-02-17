@@ -30,6 +30,7 @@ This API generates a JSON containing the steps to solve the Water jug challenge 
 ```
 
 The json response has the following keys:
-* bucket_x: The current amount of water in bucket_x
-* bucket_y: The current amount of water in bucket_y
-* explanation: A brief explanation of what action was performed in that step.
+* result: The hash containing the steps number as keys (e.g 'step1') and a hash as the value with the following keys:
+  * bucket_x: The current amount of water in bucket_x
+  * bucket_y: The current amount of water in bucket_y
+  * explanation: A brief explanation of what action was performed in that step.
