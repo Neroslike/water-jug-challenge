@@ -22,7 +22,7 @@ This API generates a JSON containing the steps to solve the Water jug challenge 
 4. Check the console to see in which port the rails server is listening, e.g  Listening on http://127.0.0.1:3000
 5. Make an API call to http://127.0.0.1:3000/result with the x, y and z parameters (x = bucket_x, y = bucket_y, z = desired_result)
   ```sh
-  curl -v http://127.0.0.1:3000/result/2/10/4
+  curl http://127.0.0.1:3000/result/2/10/4
   ```
 6. This will generate a JSON response:
 ```json
